@@ -54,6 +54,10 @@ python regression_runner.py --dataset ml-1m --model Qwen3-4B --lambda_cost 0.1
 
 Output: Policy curves, gate configurations, SHAP analyses, and CSV summaries in ./outputs/{dataset}/{model}/results.
 
+## eval/eval_ir.ipynb
+
+Purpose: An example for evaluating ranking results produced by LLM.
+
 # Typical Workflow
 ## 1. Generate LLM outputs
 python unified_runner.py --dataset ml-1m --model Qwen3-4B --enable_gen
