@@ -1,4 +1,4 @@
-This is anonymious repository that contains code for the paper **Think When Needed: Model-Aware Reasoning Routing for LLM-based Ranking** submitted to WWW 2026.
+This is anonymious repository that contains code for the paper **Think When Needed: Model-Aware Reasoning Routing for LLM-based Ranking** submitted to SIGIR 2026.
 
 # Modules Overview
 ## ./data_process/
@@ -40,7 +40,7 @@ Automatically called within unified_runner.py and item_embed_extractor.
 
 ## regression_utils.py
    
-Purpose: Provides lightweight configuration dataclasses, helper utilities, and regression helpers (advantage labeling, LightGBM regression, isotonic calibration, and Pareto-based policy selection).
+Purpose: Provides lightweight configuration data classes, helper utilities, and regression helpers (advantage labeling, LightGBM regression, isotonic calibration, and Pareto-based policy selection).
 
 Used by:regression_runner.py
 
