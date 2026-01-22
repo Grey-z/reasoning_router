@@ -2,7 +2,7 @@ This is anonymious repository that contains code for the paper **Think When Need
 
 # Modules Overview
 ## ./data_process/
-Purpose: We offer an example for processing three public datasets: MovieLens, Amazon-Game and Rankzephyr_IR.
+Purpose: We offer an example for processing three public datasets: MovieLens, Amazon-VG, and MS-MARCO.
 
 ## unified_runner.py
 Purpose: A one-stop runner integrating the entire workflow — from prompt generation and LLM inference to feature extraction, checklist probing, and embedding recomputation.
